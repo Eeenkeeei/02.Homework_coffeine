@@ -15,6 +15,8 @@ export function returnMoney(drinkName, money) {
             return result=money-45;
         }
 
-    } else return 'error';
+    } else {
+        return 'error'
+    };
 
 }
